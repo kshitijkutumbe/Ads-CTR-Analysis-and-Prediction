@@ -1,20 +1,19 @@
 # Ads-CTR-Analysis-and-Prediction" 
-
 # Ads Click-Through Rate (CTR) Analysis and Prediction
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Dataset](#dataset)
-4. [Analysis](#analysis)
-    - [Data Preprocessing](#data-preprocessing)
-    - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-5. [CTR Prediction](#ctr-prediction)
-    - [Feature Engineering](#feature-engineering)
-    - [Model Selection](#model-selection)
-    - [Training and Evaluation](#training-and-evaluation)
-6. [Conclusion](#conclusion)
-7. [References](#references)
+1. [Introduction](#1-introduction)
+2. [Prerequisites](#2-prerequisites)
+3. [Dataset](#3-dataset)
+4. [Analysis](#4-analysis)
+    - [4.1 Data Preprocessing](#41-data-preprocessing)
+    - [4.2 Exploratory Data Analysis (EDA)](#42-exploratory-data-analysis-eda)
+5. [CTR Prediction](#5-ctr-prediction)
+    - [5.1 Feature Engineering](#51-feature-engineering)
+    - [5.2 Model Selection](#52-model-selection)
+    - [5.3 Training and Evaluation](#53-training-and-evaluation)
+6. [Conclusion](#6-conclusion)
+7. [References](#7-references)
 
 ---
 
@@ -35,42 +34,5 @@ For this project, we will use a sample CTR dataset. You can find the dataset in 
 - `clicks`: Number of times users clicked on the ad.
 - `date`: Date of the data entry.
 - `ad_id`: Unique identifier for the ad.
-- `campaign_id`: Unique identifier for the campaign.
+- `campaign_id`: Unique identifie
 
-## 4. Analysis
-### Data Preprocessing
-- Load and inspect the dataset.
-- Handle missing values if any.
-- Convert data types as needed.
-- Handle outliers if necessary.
-
-### Exploratory Data Analysis (EDA)
-- Visualize the distribution of CTR.
-- Explore trends over time.
-- Analyze the relationship between different features and CTR.
-
-## 5. CTR Prediction
-### Feature Engineering
-- Create relevant features from the dataset.
-- Encode categorical variables.
-- Split the data into training and testing sets.
-
-### Model Selection
-- Choose suitable machine learning models for CTR prediction.
-- Train multiple models and evaluate their performance.
-
-### Training and Evaluation
-- Train the selected model(s) on the training data.
-- Evaluate the model(s) using appropriate evaluation metrics (e.g., ROC-AUC, F1-score, etc.).
-- Fine-tune hyperparameters if necessary.
-- Make predictions on the test data and assess the model's performance.
-
-## 6. Conclusion
-Summarize the findings from the analysis and the performance of the CTR prediction model(s). Provide insights and recommendations for improving ad campaigns based on the analysis.
-
-## 7. References
-List any external resources, libraries, or articles used during the project.
-
----
-
-Feel free to explore the provided Jupyter notebooks for detailed code implementations and step-by-step instructions. Happy analyzing and predicting CTR!
